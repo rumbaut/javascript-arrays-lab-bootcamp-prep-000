@@ -31,3 +31,15 @@ function prependKitten(name){
   aux.unshift(name);
   return aux;
 }
+
+function removeLastKitten(){
+  var aux = kittens.slice();
+  aux.pop();
+  return aux;
+}
+
+function removeFirstKitten(){
+  var aux = kittens.slice();
+  aux.shift();
+  return aux;
+}
